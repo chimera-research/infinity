@@ -29,3 +29,5 @@ Between turns, an agent is pure data, just its conversation history with no task
 - **[Reactive Agent Protocol (RAP)](https://infinity.hydro.run/docs/rap/what-is-rap)**: Serve tools over the network without holding a connection open: results and subscription events are delivered whenever they are ready, even to agents that currently have no process at all. Existing MCP servers run unchanged through a compatibility layer, and anyone can implement the open [specification](https://infinity.hydro.run/docs/rap/spec/overview).
 
 - **[Infinity Code](https://infinity.hydro.run/docs/infinity-code/overview)**: A coding agent built on the runtime for concurrent work: it runs builds and tests in the background while their output streams in, edits in parallel threads with stacked sandboxes, and hands you each result as a diff to review.
+
+- **[Independent source-reading guide](docs/exploration/README.md)**: A revision-pinned exploration for Chimera Research covering concepts, architecture, concurrency and persistence, RAP, source walkthroughs, and a credential-free learning example. Includes implementation caveats and a record of what was verified.
